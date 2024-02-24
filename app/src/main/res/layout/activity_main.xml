@@ -6,13 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RV"
+    <FrameLayout
+        android:id="@+id/fr1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+        android:layout_height="300dp"
+        android:name="com.example.fragments.ValuteFragment">
 
-    </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fr2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:name="com.example.fragments.ValuteFragment">
+
+    </FrameLayout>
 
 
 </LinearLayout>
